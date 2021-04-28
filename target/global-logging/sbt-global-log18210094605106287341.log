@@ -1,0 +1,151 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\CoolerMaster\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\CoolerMaster\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 15.0.1)
+[debug]                   Load.loadUnit: plugins took 58.3629ms
+[debug]                   Load.loadUnit: defsScala took 0.1997ms
+[debug] [Loading] Scanning directory C:\Users\CoolerMaster\.sbt\1.0\plugins\project\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\CoolerMaster\.sbt\1.0\plugins\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 15.0402 ms
+[debug]                       Load.resolveProject(global-plugins-build-build) took 32.3932ms
+[debug]                     Load.loadTransitive: finalizeProject(Project(id global-plugins-build-build, base: C:\Users\CoolerMaster\.sbt\1.0\plugins\project\project, plugins: List(<none>))) took 64.5631ms
+[debug] [Loading] Done in C:\Users\CoolerMaster\.sbt\1.0\plugins\project\project, returning: (global-plugins-build-build)
+[debug]                   Load.loadUnit: loadedProjectsRaw took 80.4335ms
+[debug]                   Load.loadUnit: cleanEvalClasses took 0.1809ms
+[debug]                 Load.loadUnit(file:/C:/Users/CoolerMaster/.sbt/1.0/plugins/project/project/, ...) took 145.3584ms
+[debug]               Load.apply: load took 255.2199ms
+[debug]               Load.apply: resolveProjects took 4.5986ms
+[debug]               Load.apply: finalTransforms took 38.9863ms
+[debug]               Load.apply: config.delegates took 4.6326ms
+[debug]               Load.apply: Def.make(settings)... took 500.4177ms
+[debug]               Load.apply: structureIndex took 64.9896ms
+[debug]               Load.apply: mkStreams took 1.0548ms
+[info] loading global plugins from C:\Users\CoolerMaster\.sbt\1.0\plugins\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]             Load.loadUnit: plugins took 1441.7676ms
+[debug]             Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\CoolerMaster\.sbt\1.0\plugins\project
+[debug]               Load.loadUnit: mkEval took 3.7373ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\CoolerMaster\.sbt\1.0\plugins\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4544 ms
+[info] loading settings for project global-plugins-build from plugins.sbt ...
+[debug]                 Load.resolveProject(global-plugins-build) took 2.3004ms
+[debug]               Load.loadTransitive: finalizeProject(Project(id global-plugins-build, base: C:\Users\CoolerMaster\.sbt\1.0\plugins\project, plugins: List(<none>))) took 4.1569ms
+[debug] [Loading] Done in C:\Users\CoolerMaster\.sbt\1.0\plugins\project, returning: (global-plugins-build)
+[debug]             Load.loadUnit: loadedProjectsRaw took 56.6942ms
+[debug]             Load.loadUnit: cleanEvalClasses took 4.1693ms
+[debug]           Load.loadUnit(file:/C:/Users/CoolerMaster/.sbt/1.0/plugins/project/, ...) took 1503.5181ms
+[debug]         Load.apply: load took 1505.3779ms
+[debug]         Load.apply: resolveProjects took 0.0845ms
+[debug]         Load.apply: finalTransforms took 7.1676ms
+[debug]         Load.apply: config.delegates took 0.3365ms
+[debug]         Load.apply: Def.make(settings)... took 74.3923ms
+[debug]         Load.apply: structureIndex took 19.7668ms
+[debug]         Load.apply: mkStreams took 0.0032ms
+[info] loading global plugins from C:\Users\CoolerMaster\.sbt\1.0\plugins\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]       Load.loadUnit: plugins took 1701.6683ms
+[debug]       Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory C:\Users\CoolerMaster\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\CoolerMaster\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.063 ms
+[debug]           Load.resolveProject(global-plugins) took 0.8362ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\CoolerMaster\.sbt\1.0\plugins, plugins: List(<none>))) took 2.2778ms
+[debug] [Loading] Done in C:\Users\CoolerMaster\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 3.1485ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.0086ms
+[debug]     Load.loadUnit(file:/C:/Users/CoolerMaster/.sbt/1.0/plugins/, ...) took 1706.6205ms
+[debug]   Load.apply: load took 1721.8346ms
+[debug]   Load.apply: resolveProjects took 0.0721ms
+[debug]   Load.apply: finalTransforms took 5.3242ms
+[debug]   Load.apply: config.delegates took 0.2355ms
+[debug]   Load.apply: Def.make(settings)... took 43.3508ms
+[debug]   Load.apply: structureIndex took 18.9895ms
+[debug]   Load.apply: mkStreams took 0.0024ms
+[info] loading global plugins from C:\Users\CoolerMaster\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2341.0745ms
+[debug]           Load.loadUnit: plugins took 15.2005ms
+[debug]           Load.loadUnit: defsScala took 0.0019ms
+[debug] [Loading] Scanning directory C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz\project
+[debug]             Load.loadUnit: mkEval took 0.1779ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9915 ms
+[info] loading settings for project otocz-build from idea.sbt ...
+[debug]               Load.resolveProject(otocz-build) took 1.2237ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id otocz-build, base: C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz\project, plugins: List(<none>))) took 2.5246ms
+[debug] [Loading] Done in C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz\project, returning: (otocz-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 18.1959ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.7323ms
+[debug]         Load.loadUnit(file:/C:/Users/CoolerMaster/Documents/informatyka/2/seminarium_magisterskie/otocz/project/, ...) took 36.9429ms
+[debug]       Load.apply: load took 37.9889ms
+[debug]       Load.apply: resolveProjects took 0.0844ms
+[debug]       Load.apply: finalTransforms took 4.9223ms
+[debug]       Load.apply: config.delegates took 0.2598ms
+[debug]       Load.apply: Def.make(settings)... took 36.5515ms
+[debug]       Load.apply: structureIndex took 16.9033ms
+[debug]       Load.apply: mkStreams took 0.0028ms
+[info] loading project definition from C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 781.4234ms
+[debug]     Load.loadUnit: defsScala took 0.0025ms
+[debug] [Loading] Scanning directory C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz
+[debug]       Load.loadUnit: mkEval took 0.2769ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.0549 ms
+[info] loading settings for project otocz from build.sbt ...
+[debug]         Load.resolveProject(otocz) took 18.8566ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id otocz, base: C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz, plugins: List(<none>))) took 20.5742ms
+[debug] [Loading] Done in C:\Users\CoolerMaster\Documents\informatyka\2\seminarium_magisterskie\otocz, returning: (otocz)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1491.0099ms
+[debug]     Load.loadUnit: cleanEvalClasses took 17.8258ms
+[debug]   Load.loadUnit(file:/C:/Users/CoolerMaster/Documents/informatyka/2/seminarium_magisterskie/otocz/, ...) took 2291.004ms
+[debug] Load.apply: load took 2292.0861ms
+[debug] Load.apply: resolveProjects took 0.0659ms
+[debug] Load.apply: finalTransforms took 16.294ms
+[debug] Load.apply: config.delegates took 0.4876ms
+[debug] Load.apply: Def.make(settings)... took 54.6878ms
+[debug] Load.apply: structureIndex took 12.9719ms
+[debug] Load.apply: mkStreams took 0.0018ms
+[info] set current project to otocz (in build file:/C:/Users/CoolerMaster/Documents/informatyka/2/seminarium_magisterskie/otocz/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 57328 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 57328, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to otocz (in build file:/C:/Users/CoolerMaster/Documents/informatyka/2/seminarium_magisterskie/otocz/)
+[debug] > Exec(idea-shell, None, None)
